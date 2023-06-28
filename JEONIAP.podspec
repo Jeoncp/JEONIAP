@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JEONIAP'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JEONIAP.'
+  s.summary          = 'OS로그 표시 라이브러리'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'OS 로그의 Debug, Error 표시 lib'
                        DESC
 
   s.homepage         = 'https://github.com/JeonChangPyeong/JEONIAP'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'JeonChangPyeong' => 'jeoncp@incruit.com' }
-  s.source           = { :git => 'https://github.com/JeonChangPyeong/JEONIAP.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Jeoncp' => 'jeoncp@incruit.com' }
+  s.source           = { :git => 'https://github.com/Jeoncp/JEONIAP.git', :tag => s.version.to_s }
+  
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'JEONIAP/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JEONIAP' => ['JEONIAP/Assets/*.png']
-  # }
+  s.swift_version = '5.0'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation', 'OSLog'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
