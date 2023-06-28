@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JEONIAP'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'OS로그 표시 라이브러리'
 
 # This description is used to generate tags and improve search results.

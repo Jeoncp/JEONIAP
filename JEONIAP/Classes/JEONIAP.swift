@@ -14,4 +14,9 @@ public class JEONIAP {
         let ui = OSLog(subsystem: "\(subsystem)", category: "UI Error")
         os_log("🔴 %@", log:ui, type: .error, errorSt)
     }
+    
+    public static func logSuccess(_ ok: String) {
+        let ui = OSLog(subsystem: "\(subsystem)", category: "Success")
+        os_log("🟢 %@", log:ui, type: .default, ok)
+    }
 }
