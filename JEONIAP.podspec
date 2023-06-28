@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JEONIAP'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'OS로그 표시 라이브러리'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jeoncp' => 'jeoncp@incruit.com' }
-  s.source           = { :git => 'https://github.com/Jeoncp/JEONIAP.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Jeoncp/JEONIAP.git', :tag => '1.0.3' }
   
 
   s.ios.deployment_target = '12.0'
